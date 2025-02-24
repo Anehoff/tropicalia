@@ -16,7 +16,7 @@ header {
 
 
 section {
-    padding-bottom: 5rem;html
+    padding-bottom: 5rem;
 }
 
 
@@ -98,8 +98,13 @@ h2 {
     font-style: normal;
     color: var(--laranja-claro);
 }
-u
-#galeria {rl(img/4965007.jpg)
+
+#galeria {
+    background-color: #FAF4F4;
+
+}
+
+.fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
@@ -116,7 +121,7 @@ u
     background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
-    border-radius: 10px;url(img/4965007.jpg)
+    border-radius: 10px;
     /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
@@ -124,6 +129,11 @@ u
 }
 
 .formulario button {
-    background-color: #CB6D43url(img/4965007.jpg)
+    background-color: #CB6D43;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
     background-color: #F1EDEF;
 }
